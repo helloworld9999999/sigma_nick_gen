@@ -14,6 +14,10 @@ body {
         display: none;
     }
 
+    .dark-bg {
+        display: none;
+    }
+    
     body {
         background: url('sigma.gif') center center / cover no-repeat;
     }
