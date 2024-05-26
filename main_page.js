@@ -1,4 +1,9 @@
 document.addEventListener("DOMContentLoaded", function() {
+    var video = document.querySelector('.bg-video');
+    video.setAttribute('src', 'sigma_lows.mp4'); // Set the source only after page load
+});
+
+document.addEventListener("DOMContentLoaded", function() {
     function generateNickname() {
         const adjs = ['уютненький', 'секси', 'вежливый', 'злой', 'крутой', 'absolute', 'supreme', 'trasher', 'vans', 'senseless', 'fearful','hopeless','bipolar','toxic',
         'bleeding','weak','skibidi', 'blessed', 'солевой', 'белий', 'чёрний', 'tired', 'bloody', 'кэжуал', 'crazy', 'evil', 'sexy', 'broken', 'deleted', 'absolute', 
