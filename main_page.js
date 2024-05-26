@@ -2,11 +2,6 @@ document.addEventListener("DOMContentLoaded", function() {
     var video = document.querySelector('.bg-video');
     video.setAttribute('src', 'sigma_lows.mp4'); 
 });
-
-document.body.addEventListener('click', function () {
-    var video = document.querySelector('.bg-video');
-    video.play();
-  });
   
 document.addEventListener("DOMContentLoaded", function() {
     function generateNickname() {

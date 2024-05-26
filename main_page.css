@@ -9,6 +9,26 @@ body {
     font-family: Nunito Sans;
 }
 
+@media (max-width: 1024px) {
+    .bg-video {
+        display: none;
+    }
+
+    body {
+        background: url('sigma.gif') center center / cover no-repeat;
+    }
+}
+
+@media (min-width: 1025px) {
+    .bg-video {
+        display: block;
+    }
+
+    body {
+        background: none;
+    }
+}
+
 .minion {
     width: 190px;
     float: right;
