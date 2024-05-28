@@ -15,19 +15,22 @@ document.addEventListener("DOMContentLoaded", function() {
         'rick owens', 'деб', 'loser', 'prince','genius', 'clown', 'zxc demon', 'мёртв внутри', 'zxc beast', 'player', 'churka', 'чурка', 'showmaker', 'sedateev!n', 'заза', 
         'свофорд', 'gondon', 'тугосеря', 'пузожитель', 'убийца','NAGIBATOR', 'Johny', 'старый бог', 'сыночек', 'рикардо', 'мастурбист', 'писюн', 'злюка', 'фiдер', 'madara', 
         'pahan', 'Друд', 'Лоло-пепе', 'мбапе', 'месси', 'lone wolf','MONSTER','topchik', 'krasavchik', 'BaNaN', 'легенда', 'Senpai', 'isagi' , 'Kaneki Ken' , 'танкист', 'ваня', 
-        'hakooo', 'чуфэнь', 'хохол', 'Гамадрила', '4покер', 'сларк', 'шкижмеш', 'дружище','otec', 'kartoshka', 'ego', 'egoist','мефчик', 'aquaпузик', 'loh', 'добряк', 'рокстар', 
+        'чуфэнь', 'хохол', 'Гамадрила', '4покер', 'сларк', 'шкижмеш', 'дружище','otec', 'kartoshka', 'ego', 'egoist','мефчик', 'aquaпузик', 'loh', 'добряк', 'рокстар', 
         'шахматист', 'йупи йо йупи йе', 'Саске', 'бейба', 'камбекич', 'победилдо', 'Joker', 'spider-man', 'Zver', 'podgashem', 'ТуРиСт', 'хуки от бабули', 'водилдо по губам', 
         'KING', 'badboy', 'бустер', 'гойдов', 'боби', 'VeGaS', 'ghoul', 'гуль', 'SaYoNaRa', 'Кержаков', 'додик', 'пельмешка','100gramoВИЧ', 'positiфчик', 'спец по трафке', 
         'нубасик', 'абонент', 'кунг фу падла', 'хобихорсер', 'егор крип', 'похуист', 'не братан', 'hakooпузик', 'дагестанчик','yanechurka', 'ussy', 'sigmaking', 'sigmawarrior',
-        'stalin', 'менчик', 'чубрик', 'miracle', 'fame', 'lame', 'ублюдок', 'demon', 'Foxy', 'член', 'Voin', 'огузок', 'крипочек', 'Nastavnik', '4upik', 'RUSSIA'
+        'stalin', 'менчик', 'чубрик', 'miracle', 'fame', 'lame', 'ублюдок', 'demon', 'Foxy', 'член', 'Voin', 'огузок', 'крипочек', 'Nastavnik', '4upik', 'RUSSIA', 'Tyler Durden',
+        'BADGUY', 'яйки', 'solowar', 'мажорик', 'sady5', 'nobody', 'Tony', 'Karambus', 'FOFAN'
         ];
         const adds2 = ['(сосал?)', 'гай', 'prime' , 'АУЕ', 'в тильте', 'v zone', 'abuser','0 y.o', '14 y.o', 'allmute', '1000-7', '322',
         'pos 2', 'pos 1', 'pos 6', 'afk', 'ZVO', 'zxc' ,'SVO', '666', '+25', 'hate', 'farm', 'пукнул', 'z', 'Z', 'kz', 'pro', 'xd' ,'play', 'сэр да сэр', 
         'no roll', 'feed', 'анлак', 'мяу', 'под хапкой', 'as a lifestyle', 'anime+dota=luv', '666', 'похрюкай', 'пиво', 'lilpeep in ears', 'проклят','kill me',
-        'not main', 'кун', 'pma', 'чсв', 'под хапкой', 'шарю', 'hatemylife' , 'wanna sleep', 'qwe', 'solo', '1x9', '1vs9'
+        'not main', 'кун', 'pma', 'чсв', 'под хапкой', 'шарю', 'hatemylife' , 'wanna sleep', 'qwe', 'solo', '1x9', '1vs9', 'made in SSSR', 'hate+love', '95ru'
         ];
         const adds1 = ['mode:', 'Mr', 'mr' , 'mc', 'АУЕ', 'в тильте', 'v zone', 'allmute', '1000-7', '322', '666','afk', 'ZVO', 'zxc', 'SVO', 'пт на', '666', 
-        'out of lp', '+25', 'hate', 'farm', 'пукнул', 'z', 'Z', 'kz', 'pro', 'xd', 'ебу', 'hatemylife' , 'wanna sleep', 'suckdick', 'qwe', 'numb the pain'];
+        'out of lp', '+25', 'hate', 'farm', 'пукнул', 'z', 'Z', 'kz', 'pro', 'xd', 'ебу', 'hatemylife' , 'wanna sleep', 'suckdick', 'qwe', 'numb the pain', 'life=shit',
+        '95ru', 'ну заплачь'
+        ];
         const randomElement = (array) => array[Math.floor(Math.random() * array.length)];
         const models = [
             randomElement(nouns) + ' and ' + randomElement(nouns),
